@@ -1,3 +1,11 @@
+/**
+ * Resizeable 原生JS实现resizeable拖动改变层大小
+ * @author richard chen
+ * @update 2014-09-24
+ * @version 1.0
+ * @参数
+ *     obj: 要添加resizeable的元素
+ */
 function Resizeable(obj) {
     return new Resizeable.prototype.init(obj);
 }
